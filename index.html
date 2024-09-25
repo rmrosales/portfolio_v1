@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width,
+            initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+               $("#scroll__home").click(function(){
+                  $('html, body').animate({
+                     scrollTop: $("#section__1").offset().top
+                  }, 1000);
+               });
+            });
+            $(document).ready(function(){
+               $("#scroll__services").click(function(){
+                  $('html, body').animate({
+                     scrollTop: $("#section__2").offset().top
+                  }, 1000);
+               });
+            });
+            $(document).ready(function(){
+               $("#scroll__work").click(function(){
+                  $('html, body').animate({
+                     scrollTop: $("#section__3").offset().top
+                  }, 1000);
+               });
+            });
+            $(document).ready(function(){
+               $("#scroll__contact").click(function(){
+                  $('html, body').animate({
+                     scrollTop: $("#section__4").offset().top
+                  }, 1000);
+               });
+            });
+            $(document).ready(function(){
+               $("#scroll__contact2").click(function(){
+                  $('html, body').animate({
+                     scrollTop: $("#section__4").offset().top
+                  }, 1000);
+               });
+            });
+            $(document).ready(function(){
+               $("#scroll__contact3").click(function(){
+                  $('html, body').animate({
+                     scrollTop: $("#section__4").offset().top
+                  }, 1000);
+               });
+            });
+            $(document).ready(function(){
+               $("#scroll__contact4").click(function(){
+                  $('html, body').animate({
+                     scrollTop: $("#section__4").offset().top
+                  }, 1000);
+               });
+            });
+            $(document).ready(function(){
+               $("#scroll__contact5").click(function(){
+                  $('html, body').animate({
+                     scrollTop: $("#section__4").offset().top
+                  }, 1000);
+               });
+            });
+            $(document).ready(function(){
+               $("#scroll__contact6").click(function(){
+                  $('html, body').animate({
+                     scrollTop: $("#section__4").offset().top
+                  }, 1000);
+               });
+            });
+         </script>
+
+        <title>Romeo's One Page</title>
+    </head>
+    <body>
+
+        <!--Nav Section-->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <!-- <a href="section__1" id="navbar__logo">RomDotCom</a> -->
+                <img src="./IMG/rom-logo-hero.svg" alt="Romeo Martin Rosales Portfolio" id="navbar__logo">
+                 <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="section__1" class="navbar__links" id="scroll__home"> Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#section__2" class="navbar__links" id="scroll__services">Services</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#section__3" class="navbar__links" id="scroll__work">Work</a>
+                    </li>
+                    <li class="navbar__btn"><a href="#section__4" class="button" id="scroll__contact">Hire Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Hero Section-->
+        <div class="section__1" id="section__1">
+        </div>
+        <div class="main" role="banner">
+            <div class="main__container">
+                <div class="main__content">
+                    <h1>I'm Romeo,<br>A Forward-thinking Product Designer<br>& Art Director.</h1>
+                     <!--<h2>My One Page Website</h2>-->
+                    <p>I elevate brand aesthetics to drive strategic growth and engagement.</p>
+                    <a href="#section__4" class="main__btn" id="scroll__contact2">
+                        Let's talk about your project
+                    </a>
+                </div>
+                <div class="main__img--container">
+                    <img src="./IMG/index-hero.gif" alt="pic"  id="main__img">
+                </div>
+            </div>
+        </div>
+
+        <!-- Buckets Section-->
+
+        <div class="services" id="section__2" style="padding-top: 100px;" role="grid">
+            <h1>What I do</h1>
+            <div class="services__container">
+                <div class="services__card">
+                    <div class="services__img--container">
+                        <img src="./IMG/ux-ico.svg" alt="pic"  class="services__img">
+                    </div>
+                    <h2>UI / UX Design</h2>
+                    <p>I specialize in UI/UX design, seamlessly blending creativity and
+                    functionality to create digital experiences that captivate and resonate with users.</p>
+                    <a href="#section__4"  id="scroll__contact3">Get Started</a>
+                </div>
+                <div class="services__card">
+                    <div class="services__img--container">
+                        <img src="./IMG/web-ico.svg" alt="pic" class="services__img">
+                    </div>
+                    <h2>Web Design</h2>
+                    <p>I'm adept at web design, merging aesthetics with functionality
+                        to create seamless online experiences that resonate with users and elevate digital presence.</p>
+                        <a href="#section__4"  id="scroll__contact4">Get Started</a>
+                </div>
+                <div class="services__card">
+                    <div class="services__img--container">
+                        <img src="./IMG/art-ico.svg" alt="pic" class="services__img">
+                    </div>
+                    <h2>Art Direction</h2>
+                    <p>I excel in art direction, orchestrating visual elements to bring creative concepts to life, ensuring a cohesive and impactful aesthetic across various mediums.</p>
+                    <a href="#section__4"  id="scroll__contact5">Get Started</a>
+                </div>
+                <div class="services__card">
+                    <div class="services__img--container">
+                        <img src="./IMG/brand-ico.svg" alt="pic" class="services__img">
+                    </div>
+                    <h2>Branding</h2>
+                    <p>I excel in branding, sculpting unique identities that speak
+                        volumes about a company's essence and resonate deeply with their audience, leaving a lasting impression.</p>
+                        <a href="#section__4"  id="scroll__contact6">Get Started</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Work Section-->
+        <div class="work" id="section__3" style="padding-top: 100px;" role="grid">
+            <h1>Recent Projects</h1>
+            <div class="work__container">
+               <div class="work__card" style="background-image: linear-gradient(to bottom, rgba(99, 99, 99, 0.40), rgba(1, 1, 11, 0.96)), url(./IMG/BDRF-App.jpg);">
+                 <h2>Bowel Research<br>
+                     UK App</h2>
+                 <p>Bowel Research UK
+                    <br>2017
+                 </p>
+                 <a href="http://www.linkedin.com/in/takierosales" target="_blank">View project</a>
+                </div>
+                <div class="work__card" style="background-image: linear-gradient(to bottom, rgba(99, 99, 99, 0.4), rgba(1, 1, 11, 0.96)), url(./IMG/delorean-black.jpg);">
+                    <h2>Back To The Future<br>
+                        The Delorean</h2>
+                    <p>Universal Studios
+                        <br>2017</p>
+                        <a href="http://www.linkedin.com/in/takierosales" target="_blank">View project</a>
+                </div>
+                 <div class="work__card" style="background-image: linear-gradient(to bottom, rgba(99, 99, 99, 0.4), rgba(1, 1, 11, 0.96)), url(./IMG/bcard.jpg);">
+                     <h2>Nextus Branding<br>& Identity</h2>
+                     <p>Nextus
+                        <br>2023</p>
+                        <a href="http://www.linkedin.com/in/takierosales" target="_blank">View project</a>
+                 </div>
+             </div>
+        </div>
+
+                <!--Hero Section-->
+                <div class="section__1" id="section__4">
+                </div>
+                <div class="main" style="padding-bottom: 5rem;" role="main">
+                    
+                    <div class="main__container">
+                        
+                        <div class="main__content">
+                            <img src="./IMG/rom-logo-hero.svg" alt="Romeo Martin Rosales Portfolio">
+                            <h1>Let's collaborate. Drop me a message or call me.</h1>
+                             <!--<h2>My One Page Website</h2>-->
+                            <p>Feel free to email me at  <span style="color: #dbfc94">romeomartinrosales@gmail.com</span>. <br>You can reach me by phone at <span style="color: #dbfc94">(647) 242-6183</span>. Looking forward to hearing from you.
+                            </p>
+                             <!--<button class="main__herobtn">
+                                <a href="http://www.linkedin.com/in/takierosales" target="_blank" class="main__btn">Let's connect</a>
+                            </button>-->
+                            <a href="http://www.linkedin.com/in/takierosales" target="_blank" class="main__btn">
+                                Let's connect
+                            </a>
+                        </div>
+                    </div>
+                </div>
+     
+
+
+
+
+        <script src="./JS/app.js"></script>
+
+   </body>
+</html> 
